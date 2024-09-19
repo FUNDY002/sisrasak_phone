@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Mobile_Price_sirasak</string>
+    <string name="root_url">http://10.13.1.26:3000/api/predict</string>
+</resources>

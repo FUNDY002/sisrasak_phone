@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ฟีเจอร์ที่มีใน API -->
+        <EditText
+            android:id="@+id/batteryPower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Battery Power" />
+
+        <EditText
+            android:id="@+id/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bluetooth (0 or 1)" />
+
+        <EditText
+            android:id="@+id/clockSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Clock Speed" />
+
+        <EditText
+            android:id="@+id/dualSim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dual SIM (0 or 1)" />
+
+        <EditText
+            android:id="@+id/fc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Front Camera (MP)" />
+
+        <EditText
+            android:id="@+id/fourG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="4G (0 or 1)" />
+
+        <EditText
+            android:id="@+id/intMemory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Internal Memory (GB)" />
+
+        <EditText
+            android:id="@+id/mDep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Depth (cm)" />
+
+        <EditText
+            android:id="@+id/mobileWt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Weight (g)" />
+
+        <EditText
+            android:id="@+id/nCores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Cores" />
+
+        <EditText
+            android:id="@+id/pc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Primary Camera (MP)" />
+
+        <EditText
+            android:id="@+id/pxHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pixel Height" />
+
+        <EditText
+            android:id="@+id/pxWidth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pixel Width" />
+
+        <EditText
+            android:id="@+id/ram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RAM (MB)" />
+
+        <EditText
+            android:id="@+id/scH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Screen Height (cm)" />
+
+        <EditText
+            android:id="@+id/scW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Screen Width (cm)" />
+
+        <EditText
+            android:id="@+id/talkTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Talk Time (hours)" />
+
+        <EditText
+            android:id="@+id/threeG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="3G (0 or 1)" />
+
+        <EditText
+            android:id="@+id/touchScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Touch Screen (0 or 1)" />
+
+        <EditText
+            android:id="@+id/wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="WiFi (0 or 1)" />
+
+        <!-- ปุ่มทำนาย -->
+        <Button
+            android:id="@+id/predictButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Predict" />
+
+        <!-- TextView เพื่อแสดงผลลัพธ์ -->
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result will be displayed here"
+            android:paddingTop="16dp" />
+    </LinearLayout>
+</ScrollView>
